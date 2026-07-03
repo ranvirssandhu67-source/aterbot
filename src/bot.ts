@@ -21,7 +21,7 @@ const reconnect = async (): Promise<void> => {
 
 const createBot = (): void => {
 	bot = Mineflayer.createBot({
-		host: 'SMP-run.aternos.me'
+		host: 'SMP-run.aternos.me',
 		port: 20134
 		username:'dream'
 	} as const);
